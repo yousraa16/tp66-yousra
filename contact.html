@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Web - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-fixed">
+        <div class="logo">WebAura</div>
+        <nav class="nav-flex">
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <main class="main-container">
+        <h2>Contactez-nous</h2>
+        <div class="contact-wrapper">
+            <!-- Bloc avec méthode Flottante (Float) -->
+            <div class="info-box-float">
+                <h3>Nos coordonnées</h3>
+                <p>� Adresse : Avenue Habib Bourguiba, Gabès, Tunisie</p>
+                <p>� Tél : +216 75 000 000</p>
+                <p>✉ Email : contact@webaura.tn</p>
+            </div>
+            <!-- Formulaire aligné via Flexbox -->
+            <form class="form-flex">
+                <div class="form-group">
+                    <label for="nom">Nom complet :</label>
+                    <input type="text" id="nom" required placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" required placeholder="votre@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" rows="4" placeholder="Votre message..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Envoyer</button>
+            </form>
+            <div class="clear"></div> 
+            <!-- Nettoyage du float -->
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2026 WebAura - Tous droits réservés.</p>
+        </footer>
+</body>
+</html>
